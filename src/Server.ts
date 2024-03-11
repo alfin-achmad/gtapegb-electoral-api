@@ -16,7 +16,7 @@ import * as rest from "./controllers/rest/index";
     returnsCoercedValues: true
   },
   mount: {
-    "/rest": [
+    "/": [
       ...Object.values(rest)
     ]
   },

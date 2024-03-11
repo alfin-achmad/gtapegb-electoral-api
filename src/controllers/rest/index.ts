@@ -3,3 +3,7 @@
  */
 
 export * from "./HelloWorldController";
+export * from "./authentication/AuthenticationController";
+export * from "./elector/ElectorController";
+export * from "./region/RegionController";
+export * from "./user/UserController";
